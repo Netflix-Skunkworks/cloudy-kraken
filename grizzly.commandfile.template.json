@@ -1,0 +1,19 @@
+{{
+  "attack": {attack},
+  "region": "stage",
+  "ttl": {ttl},
+  "threads": "{threads}",
+  "elbs": [
+    "dualstack.app-under-test-1234567890.us-west-2.elb.amazonaws.com",
+    "dualstack.app-under-test-1234567890.us-west-1.elb.amazonaws.com",
+    "dualstack.app-under-test-1234567890.us-east-1.elb.amazonaws.com",
+    "dualstack.app-under-test-1234567890.us-east-2.elb.amazonaws.com",
+    "dualstack.app-under-test-1234567890.eu-west-2.elb.amazonaws.com",
+    "dualstack.app-under-test.-1234567890.eu-west-1.elb.amazonaws.com"
+  ],
+  "start_time": "{start_time}",
+  "killswitch": "method_name",
+  "build_identifier": "randomjunk",
+  "cookie_store_count": 2,
+  "cookies": "nonmember"
+}}

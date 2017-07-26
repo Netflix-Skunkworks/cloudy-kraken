@@ -1,0 +1,7 @@
+{
+  "key_name": "repulsive_grizzly",
+  "instance_type": "m4.large",
+  "instance_profile": "GrizzlyInstanceProfile",
+  "security_group": "repulsive_grizzly",
+  "vpc": "repulsive_grizzly-vpc"
+}
